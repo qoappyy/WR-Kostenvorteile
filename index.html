@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wirtschaftliche Kostenvorteile - Interaktives Lernmodul</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>Wirtschaftliche Kostenvorteile</h1>
+            <button id="toggle-sidebar" class="menu-button">
+                <i class="bi bi-list"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside id="sidebar" class="sidebar">
+            <div class="sidebar-content">
+                <div class="progress-container">
+                    <h3>Lernfortschritt</h3>
+                    <div class="progress-bar-container">
+                        <div id="progress-bar" class="progress-bar" style="width: 0%"></div>
+                    </div>
+                    <div id="progress-percentage">0%</div>
+                </div>
+                <nav class="sidebar-nav">
+                    <ul>
+                        <li><a href="#intro">Einführung</a></li>
+                        <li><a href="#absolute">Absoluter Kostenvorteil</a></li>
+                        <li><a href="#opportunity">Opportunitätskosten</a></li>
+                        <li><a href="#comparative">Komparativer Kostenvorteil</a></li>
+                        <li><a href="#examples">Beispiele</a></li>
+                        <li><a href="#quiz">Quiz</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <!-- Einführung -->
+            <section id="intro" class="content-section">
+                <div class="card">
+                    <h2>Einführung in wirtschaftliche Kostenvorteile</h2>
+                    
+                    <p>Willkommen zu unserem interaktiven Lernmodul über wirtschaftliche Kostenvorteile! Dieses Modul wurde von Tim G, Tim W, Konrad und (wird später hinzugefügt) erstellt und behandelt drei wichtige Konzepte der Wirtschaftstheorie:</p>
+                    
+                    <div class="collapsible-panel" data-id="intro-overview">
+                        <div class="panel-header">
+                            <h3>Überblick der behandelten Konzepte</h3>
+                            <i class="bi bi-chevron-down"></i>
+                        </div>
+                        <div class="panel-content">
+                            <ol>
+                                <li><strong>Absoluter Kostenvorteil</strong> - Ein Produzent kann ein Gut mit weniger Ressourcen herstellen als andere</li>
+                                <li><strong>Opportunitätskosten</strong> - Der entgangene Nutzen der besten nicht gewählten Alternative</li>
+                                <li><strong>Komparativer Kostenvorteil</strong> - Ein Produzent kann ein Gut zu geringeren Opportunitätskosten herstellen</li>
+                            </ol>
+                            <p>Diese Konzepte bilden die theoretische Grundlage für den internationalen Handel und erklären, warum Spezialisierung und Handel für alle Beteiligten vorteilhaft sein können.</p>
+                        </div>
+                    </div>
+                    
+                    <p class="mt-4">Klicken Sie auf die verschiedenen Abschnitte, um mehr über jedes Konzept zu erfahren. Am Ende können Sie Ihr Wissen mit einem Quiz testen.</p>
+                </div>
+            </section>
+
+            <!-- Der absolute Kostenvorteil -->
+            <section id="absolute" class="content-section">
+                <div class="card">
+                    <h2>Absoluter Kostenvorteil</h2>
+                    
+                    <p>Ein <strong>absoluter Kostenvorteil</strong> liegt vor, wenn ein Produzent (Land, Unternehmen oder Person) ein Gut oder eine Dienstleistung mit weniger Ressourceneinsatz produzieren kann als ein anderer Produzent.</p>
+                    
+                    <div class="collapsible-panel" data-id="absolute-definition">
+                        <div class="panel-header">
+                            <h3>Definition im Detail</h3>
+                            <i class="bi bi-chevron-down"></i>
+                        </div>
+                        <div class="panel-content">
+                            <p>Der absolute Kostenvorteil bezieht sich auf die Fähigkeit, ein Gut mit weniger <em>absoluten</em> Inputs zu produzieren:</p>
+                            <ul>
+                                <li>Weniger Arbeitsstunden</li>
+                                <li>Weniger Kapitaleinsatz</li>
+                                <li>Weniger Rohstoffe</li>
+                                <li>Allgemein geringere Produktionskosten</li>
+                            </ul>
+                            <p>Ein Land oder Unternehmen mit einem absoluten Kostenvorteil ist produktiver in der Herstellung eines bestimmten Gutes im Vergleich zu anderen.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="collapsible-panel" data-id="absolute-example">
+                        <div class="panel-header">
+                            <h3>Beispiel eines absoluten Kostenvorteils</h3>
+                            <i class="bi bi-chevron-down"></i>
+                        </div>
+                        <div class="panel-content">
+                            <p>Stellen wir uns vor, Deutschland und Frankreich produzieren Maschinen und Wein.</p>
+                            
+                            <p>Arbeitsstunden benötigt für die Produktion einer Einheit:</p>
+                            <div class="table-container">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Land</th>
+                                            <th>Maschinen (1 Einheit)</th>
+                                            <th>Wein (1 Einheit)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Deutschland</td>
+                                            <td class="text-center">10 Stunden</td>
+                                            <td class="text-center">20 Stunden</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Frankreich</td>
+                                            <td class="text-center">20 Stunden</td>
+                                            <td class="text-center">10 Stunden</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                            <p>In diesem Beispiel hat:</p>
+                            <ul>
+                                <li><strong>Deutschland</strong> einen absoluten Kostenvorteil bei der Produktion von <strong>Maschinen</strong> (10 vs. 20 Stunden)</li>
+                                <li><strong>Frankreich</strong> einen absoluten Kostenvorteil bei der Produktion von <strong>Wein</strong> (10 vs. 20 Stunden)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="collapsible-panel" data-id="absolute-causes">
+                        <div class="panel-header">
+                            <h3>Ursachen für absolute Kostenvorteile</h3>
+                            <i class="bi bi-chevron-down"></i>
+                        </div>
+                        <div class="panel-content">
+                            <p>Absolute Kostenvorteile können verschiedene Ursachen haben:</p>
+                            
+                            <div class="info-box">
+                                <h4>Natürliche Ressourcen</h4>
+                                <p>Länder mit reichhaltigen natürlichen Ressourcen (Öl, Mineralien, fruchtbares Land) haben oft absolute Vorteile bei der Produktion von Gütern, die diese Ressourcen erfordern.</p>
+                            </div>
+                            
+                            <div class="info-box">
+                                <h4>Klima und Geographie</h4>
+                                <p>Bestimmte klimatische Bedingungen können die Produktion begünstigen (z.B. Weinanbau in mediterranen Regionen).</p>
+                            </div>
+                            
+                            <div class="info-box">
+                                <h4>Technologie und Know-how</h4>
+                                <p>Technologische Überlegenheit oder spezialisiertes Wissen kann zu effizienteren Produktionsprozessen führen.</p>
+                            </div>
+                            
+                            <div class="info-box">
+                                <h4>Infrastruktur</h4>
+                                <p>Gut entwickelte Infrastruktur kann Produktions- und Transportkosten senken.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Opportunitätskosten -->
+            <section id="opportunity" class="content-section">
+                <div class="card">
+                    <h2>Opportunitätskosten</h2>
+                    
+                    <p><strong>Opportunitätskosten</strong> sind der entgangene Nutzen oder Wert der besten nicht gewählten Alternative, wenn eine Entscheidung getroffen wird.</p>
+                    
+                    <div class="collapsible-panel" data-id="opportunity-definition">
+                        <div class="panel-header">
+                            <h3>Definition und Konzept</h3>
+                            <i class="bi bi-chevron-down"></i>
+                        </div>
+                        <div class="panel-content">
+                            <p>Opportunitätskosten sind ein fundamentales Konzept in der Wirtschaftswissenschaft und basieren auf der Tatsache, dass Ressourcen begrenzt sind und Entscheidungen getroffen werden müssen:</p>
+                            <ul>
+                                <li>Wenn wir uns für etwas entscheiden, verzichten wir automatisch auf etwas anderes</li>
+                                <li>Der Wert dessen, worauf wir verzichten, sind die Opportunitätskosten</li>
+                                <li>Sie sind nicht direkt sichtbar und erscheinen nicht in der Buchhaltung</li>
+                                <li>Sie sind jedoch entscheidend für die wirtschaftliche Entscheidungsfindung</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="collapsible-panel" data-id="opportunity-example">
+                        <div class="panel-header">
+                            <h3>Beispiel für Opportunitätskosten</h3>
+                            <i class="bi bi-chevron-down"></i>
+                        </div>
+                        <div class="panel-content">
+                            <p><strong>Beispiel 1: Produktion in einem Land</strong></p>
+                            <p>Land A kann mit seinen verfügbaren Ressourcen entweder 100 Einheiten Weizen oder 50 Einheiten Kleidung produzieren.</p>
+                            
+                            <p>Opportunitätskosten:</p>
+                            <ul>
+                                <li>Die Opportunitätskosten der Produktion von 1 Einheit Weizen sind 0,5 Einheiten Kleidung (50/100)</li>
+                                <li>Die Opportunitätskosten der Produktion von 1 Einheit Kleidung sind 2 Einheiten Weizen (100/50)</li>
+                            </ul>
+                            
+                            <p><strong>Beispiel 2: Persönliche Entscheidung</strong></p>
+                            <p>Eine Studentin hat die Wahl, entweder 8 Stunden für ihr Studium zu lernen oder 8 Stunden zu arbeiten und 120€ zu verdienen.</p>
+                            
+                            <p>Opportunitätskosten:</p>
+                            <ul>
+                                <li>Die Opportunitätskosten des Lernens betragen 120€ (entgangener Verdienst)</li>
+                                <li>Die Opportunitätskosten des Arbeitens sind die potentiell besseren Noten oder das gelernte Wissen</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Komparativer Kostenvorteil -->
+            <section id="comparative" class="content-section">
+                <div class="card">
+                    <h2>Komparativer Kostenvorteil</h2>
+                    
+                    <p>Ein <strong>komparativer Kostenvorteil</strong> liegt vor, wenn ein Produzent ein Gut zu geringeren Opportunitätskosten herstellen kann als ein anderer Produzent.</p>
+                    
+                    <div class="collapsible-panel" data-id="comparative-definition">
+                        <div class="panel-header">
+                            <h3>Definition und Bedeutung</h3>
+                            <i class="bi bi-chevron-down"></i>
+                        </div>
+                        <div class="panel-content">
+                            <p>Das Konzept des komparativen Kostenvorteils wurde 1817 von David Ricardo entwickelt und gehört zu den grundlegenden Theorien des internationalen Handels:</p>
+                            <ul>
+                                <li>Auch wenn ein Land bei der Produktion aller Güter einen absoluten Nachteil hat, kann es von Spezialisierung und Handel profitieren</li>
+                                <li>Entscheidend sind nicht die absoluten Produktionskosten, sondern die Opportunitätskosten</li>
+                                <li>Jedes Land sollte sich auf die Produktion von Gütern spezialisieren, bei denen es komparative Vorteile hat</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="collapsible-panel" data-id="comparative-example">
+                        <div class="panel-header">
+                            <h3>Beispiel für komparativen Kostenvorteil</h3>
+                            <i class="bi bi-chevron-down"></i>
+                        </div>
+                        <div class="panel-content">
+                            <p>Betrachten wir zwei Länder, Deutschland und Portugal, die Autos und Wein produzieren.</p>
+                            
+                            <div class="table-container">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Land</th>
+                                            <th>Produktion pro Tag: Autos</th>
+                                            <th>Produktion pro Tag: Wein (Flaschen)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Deutschland</td>
+                                            <td class="text-center">5</td>
+                                            <td class="text-center">10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Portugal</td>
+                                            <td class="text-center">1</td>
+                                            <td class="text-center">8</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                            <p><strong>Berechnung der Opportunitätskosten:</strong></p>
+                            
+                            <p>Deutschland:</p>
+                            <ul>
+                                <li>Opportunitätskosten für 1 Auto: 2 Flaschen Wein (10/5)</li>
+                                <li>Opportunitätskosten für 1 Flasche Wein: 0,5 Autos (5/10)</li>
+                            </ul>
+                            
+                            <p>Portugal:</p>
+                            <ul>
+                                <li>Opportunitätskosten für 1 Auto: 8 Flaschen Wein (8/1)</li>
+                                <li>Opportunitätskosten für 1 Flasche Wein: 0,125 Autos (1/8)</li>
+                            </ul>
+                            
+                            <p><strong>Komparative Vorteile:</strong></p>
+                            <ul>
+                                <li>Deutschland hat einen komparativen Vorteil bei der Produktion von Autos (2 Flaschen Wein vs. 8 Flaschen Wein)</li>
+                                <li>Portugal hat einen komparativen Vorteil bei der Produktion von Wein (0,125 Autos vs. 0,5 Autos)</li>
+                            </ul>
+                            
+                            <p>Obwohl Deutschland in der Produktion beider Güter einen absoluten Vorteil hat, lohnt es sich für beide Länder, sich zu spezialisieren und Handel zu betreiben.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Praxisbeispiele -->
+            <section id="examples" class="content-section">
+                <div class="card">
+                    <h2>Praktische Beispiele und Anwendungen</h2>
+                    
+                    <p>Die Konzepte der absoluten und komparativen Kostenvorteile finden in der globalen Wirtschaft vielfältige Anwendung.</p>
+                    
+                    <div class="collapsible-panel" data-id="examples-countries">
+                        <div class="panel-header">
+                            <h3>Länderbeispiele</h3>
+                            <i class="bi bi-chevron-down"></i>
+                        </div>
+                        <div class="panel-content">
+                            <div class="example-box">
+                                <h4>Deutschland - Maschinenbau</h4>
+                                <p>Deutschland hat sich auf die Produktion hochwertiger Maschinen und Autos spezialisiert, wobei es sowohl absolute als auch komparative Vorteile durch technisches Know-how, Infrastruktur und qualifizierte Arbeitskräfte nutzt.</p>
+                            </div>
+                            
+                            <div class="example-box">
+                                <h4>China - Elektronikproduktion</h4>
+                                <p>China hat einen absoluten Kostenvorteil bei der Produktion von Elektronikartikeln aufgrund niedrigerer Arbeitskosten und großer Produktionsanlagen.</p>
+                            </div>
+                            
+                            <div class="example-box">
+                                <h4>Schweiz - Finanzsektor und Präzisionsinstrumente</h4>
+                                <p>Die Schweiz hat sich auf Finanzdienstleistungen und Präzisionsinstrumente spezialisiert, was ihre komparativen Vorteile in diesen Bereichen widerspiegelt.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="collapsible-panel" data-id="examples-everyday">
+                        <div class="panel-header">
+                            <h3>Alltagsbeispiele</h3>
+                            <i class="bi bi-chevron-down"></i>
+                        </div>
+                        <div class="panel-content">
+                            <p><strong>Beispiel: Arbeitsteilung im Haushalt</strong></p>
+                            <p>In einer Wohngemeinschaft könnte eine Person besser kochen, während die andere besser putzen kann. Selbst wenn eine Person in beiden Tätigkeiten besser ist, lohnt sich eine Arbeitsteilung nach komparativen Vorteilen.</p>
+                            
+                            <p><strong>Beispiel: Freiberufliche Arbeit</strong></p>
+                            <p>Ein Rechtsanwalt könnte sein eigenes Büro putzen, aber seine Opportunitätskosten wären hoch (entgangene Beratungsstunden). Es ist wirtschaftlich sinnvoller, eine Reinigungskraft einzustellen, auch wenn der Anwalt schneller putzen könnte.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quiz -->
+            <section id="quiz" class="content-section">
+                <div class="card">
+                    <h2>Quiz: Testen Sie Ihr Wissen</h2>
+                    
+                    <p>Beantworten Sie die folgenden Fragen, um Ihr Verständnis der wirtschaftlichen Kostenvorteile zu testen.</p>
+                    
+                    <div id="quiz-error" class="alert error-alert" style="display: none;">
+                        Bitte beantworte alle Fragen bevor du das Quiz auswertest.
+                    </div>
+                    
+                    <div id="quiz-container">
+                        <!-- JavaScript Quizfragen hier -->
+                    </div>
+                    
+                    <div id="quiz-results" class="results-container" style="display: none;">
+                        <!-- Quizergebnisse -->
+                    </div>
+                    
+                    <div class="quiz-buttons">
+                        <button id="evaluate-quiz" class="button primary-button">Quiz auswerten</button>
+                        <button id="reset-quiz" class="button outline-button" style="display: none;">Quiz zurücksetzen</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>Made by Tim with ❤️ | © <span id="current-year"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
