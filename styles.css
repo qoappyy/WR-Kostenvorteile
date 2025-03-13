@@ -38,6 +38,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 1.875rem;
+    color: white;
+    margin: 0;
 }
 
 h2 {
@@ -76,7 +78,8 @@ a:hover {
 
 /* Layout */
 .header {
-    background-color: var(--card-bg);
+    background-color: var(--primary-color);
+    color: white;
     box-shadow: var(--shadow);
     padding: 1rem;
     position: sticky;
@@ -89,8 +92,19 @@ a:hover {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+
+.site-logo {
+    height: 40px;
+    width: auto;
 }
 
 .menu-button {
@@ -98,8 +112,9 @@ a:hover {
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
-    color: var(--primary-color);
+    color: white;
     display: none;
+    margin-left: auto;
 }
 
 .main-container {
@@ -374,6 +389,22 @@ th {
     color: var(--error-color);
 }
 
+/* Bildcontainer */
+.intro-image-container,
+.concept-image-container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+}
+
+.intro-image,
+.concept-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+    border-radius: var(--border-radius);
+}
+
 /* Utilities */
 .mt-4 {
     margin-top: 1rem;
@@ -384,7 +415,7 @@ th {
     .main-container {
         flex-direction: column;
     }
-    
+
     .sidebar {
         width: 100%;
         height: auto;
@@ -394,15 +425,15 @@ th {
         transform: translateX(-100%);
         z-index: 90;
     }
-    
+
     .sidebar.active {
         transform: translateX(0);
     }
-    
+
     .menu-button {
         display: block;
     }
-    
+
     .main-content {
         padding: 1rem;
     }
@@ -412,11 +443,11 @@ th {
     .card {
         padding: 1rem;
     }
-    
+
     h1 {
         font-size: 1.5rem;
     }
-    
+
     h2 {
         font-size: 1.25rem;
     }
