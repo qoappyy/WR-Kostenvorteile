@@ -1,0 +1,21 @@
+<svg width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="absoluteGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A90E2"/>
+      <stop offset="100%" stop-color="#1C4D8C"/>
+    </linearGradient>
+  </defs>
+  <circle cx="80" cy="80" r="75" fill="white" stroke="#E0E0E0" stroke-width="2"/>
+  <g transform="translate(15, 15) scale(0.8)">
+    <!-- Factory icon representing productivity -->
+    <path d="M20,120 L20,60 L50,75 L50,60 L80,75 L80,60 L110,75 L110,60 L140,75 L140,120 Z" fill="url(#absoluteGradient)"/>
+    <rect x="20" y="120" width="120" height="10" fill="#555"/>
+    <rect x="40" y="85" width="15" height="20" fill="#FFF"/>
+    <rect x="80" y="85" width="15" height="20" fill="#FFF"/>
+    <rect x="110" y="90" width="10" height="30" fill="#333"/>
+    
+    <!-- Number 1 indicating top position -->
+    <circle cx="130" cy="35" r="25" fill="#FFD700"/>
+    <text x="130" y="45" font-family="Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#333">1</text>
+  </g>
+</svg>
