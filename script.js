@@ -34,7 +34,7 @@ const quizQuestions = [
         options: [
             "Die direkten finanziellen Kosten der Produktion eines Gutes.",
             "Die Kosten, die entstehen, wenn man ein Gut unter optimalen Bedingungen produziert.",
-            "Der entgangene Nutzen der besten nicht gewählten Alternative.",
+            "Der entgangene Nutzen der nächstbesten nicht gewählten Alternative.",
             "Die Kosten, die durch Ineffizienzen in der Produktion entstehen."
         ],
         correctOption: 2
