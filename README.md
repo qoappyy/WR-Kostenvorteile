@@ -8,7 +8,9 @@ JavaScript für die Interaktivität und Nutzererfahrung.
 
 ## Verwendete Quellen
 ```
-google.com
-google.com
-google.com
+https://studyflix.de/wirtschaft/komparativer-kostenvorteil-1754
+https://www.bpb.de/kurz-knapp/lexika/lexikon-der-wirtschaft/19802/komparative-kosten/
+https://www.bwl-lexikon.de/wiki/absolute-kostenvorteile/
+https://studyflix.de/wirtschaft/opportunitatskosten-1612
+https://www.munich-business-school.de/l/bwl-lexikon/finanzwissen/opportunitaetskosten
 ```
