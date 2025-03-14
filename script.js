@@ -302,7 +302,7 @@ function initQuiz() {
         resultTitle.textContent = 'Ergebnis';
 
         const resultScore = document.createElement('p');
-        resultScore.textContent = `Sie haben ${results.correct} von ${quizQuestions.length} Fragen richtig beantwortet.`;
+        resultScore.textContent = `Du hast ${results.correct} von ${quizQuestions.length} Fragen richtig beantwortet.`;
 
         const resultMessage = document.createElement('p');
         resultMessage.textContent = getResultMessage(results.correct, quizQuestions.length);
