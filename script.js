@@ -21,10 +21,10 @@ const quizQuestions = [
         id: "q1",
         question: "Was ist ein absoluter Kostenvorteil?",
         options: [
-            "Die Fähigkeit, ein Gut zu geringeren Opportunitätskosten herzustellen als ein anderer Produzent",
-            "Die Fähigkeit, ein Gut mit weniger Ressourceneinsatz herzustellen als ein anderer Produzent",
-            "Der Verzicht auf eine Alternative, wenn man sich für die Produktion eines bestimmten Gutes entscheidet",
-            "Die Differenz zwischen den Produktionskosten zweier Länder für dasselbe Gut"
+            "die Fähigkeit, ein Gut zu geringeren Opportunitätskosten herzustellen als ein anderer Produzent",
+            "die Fähigkeit, ein Gut mit weniger Ressourceneinsatz herzustellen als ein anderer Produzent",
+            "der Verzicht auf eine Alternative, wenn man sich für die Produktion eines bestimmten Gutes entscheidet",
+            "die Differenz zwischen den Produktionskosten zweier Länder für dasselbe Gut"
         ],
         correctOption: 1
     },
@@ -32,10 +32,10 @@ const quizQuestions = [
         id: "q2",
         question: "Was sind Opportunitätskosten?",
         options: [
-            "Die direkten finanziellen Kosten der Produktion eines Gutes",
-            "Die Kosten, die entstehen, wenn man ein Gut unter optimalen Bedingungen produziert",
-            "Der entgangene Nutzen der besten nicht gewählten Alternative",
-            "Die Kosten, die durch Ineffizienzen in der Produktion entstehen"
+            "die direkten finanziellen Kosten der Produktion eines Gutes",
+            "die Kosten, die entstehen, wenn man ein Gut unter optimalen Bedingungen produziert",
+            "der entgangene Nutzen der besten nicht gewählten Alternative",
+            "die Kosten, die durch Ineffizienzen in der Produktion entstehen"
         ],
         correctOption: 2
     },
@@ -43,10 +43,10 @@ const quizQuestions = [
         id: "q3",
         question: "Was ist ein komparativer Kostenvorteil?",
         options: [
-            "Die Fähigkeit, ein Gut billiger zu produzieren als jeder andere Produzent",
-            "Die Fähigkeit, mehr von einem Gut zu produzieren als andere Länder mit denselben Ressourcen",
-            "Die Differenz zwischen den Kosten der Produktion desselben Gutes in verschiedenen Ländern",
-            "Die Fähigkeit, ein Gut zu geringeren Opportunitätskosten herzustellen als ein anderer Produzent"
+            "die Fähigkeit, ein Gut billiger zu produzieren als jeder andere Produzent",
+            "die Fähigkeit, mehr von einem Gut zu produzieren als andere Länder mit denselben Ressourcen",
+            "die Differenz zwischen den Kosten der Produktion desselben Gutes in verschiedenen Ländern",
+            "die Fähigkeit, ein Gut zu geringeren Opportunitätskosten herzustellen als ein anderer Produzent"
         ],
         correctOption: 3
     },
@@ -57,7 +57,7 @@ const quizQuestions = [
             "Land A, weil es absolut mehr Fernseher produzieren kann",
             "Land B, weil die Opportunitätskosten für einen Fernseher geringer sind (1/3 Computer vs. 1/2 Computer)",
             "Land A, weil die Opportunitätskosten für einen Fernseher geringer sind",
-            "Beide Länder haben den gleichen komparativen Kostenvorteil"
+            "beide Länder haben den gleichen komparativen Kostenvorteil"
         ],
         correctOption: 1
     },
@@ -65,9 +65,9 @@ const quizQuestions = [
         id: "q5",
         question: "Warum ist der internationale Handel auch dann vorteilhaft, wenn ein Land in der Produktion aller Güter einen absoluten Nachteil hat?",
         options: [
-            "Weil das Land mit dem absoluten Nachteil immer von Subventionen des anderen Landes profitiert",
-            "Weil das Land mit dem absoluten Nachteil keine andere Wahl hat",
-            "Weil das Land sich auf die Produktion von Gütern spezialisieren kann, bei denen es einen komparativen Vorteil hat (geringere Opportunitätskosten)",
+            "weil das Land mit dem absoluten Nachteil immer von Subventionen des anderen Landes profitiert",
+            "weil das Land mit dem absoluten Nachteil keine andere Wahl hat",
+            "weil das Land sich auf die Produktion von Gütern spezialisieren kann, bei denen es einen komparativen Vorteil hat (geringere Opportunitätskosten)",
             "Handel ist in diesem Fall nicht vorteilhaft"
         ],
         correctOption: 2
